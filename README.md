@@ -1,4 +1,4 @@
-# WEB103 Project 4 - _Car Customizer_
+# WEB103 Project 4 - _DIY Plant Pot_
 
 Submitted by: **Leigh-Riane Amsterdam**
 
