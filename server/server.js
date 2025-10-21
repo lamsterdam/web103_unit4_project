@@ -1,6 +1,7 @@
 import express from 'express'
 import path from 'path'
 import favicon from 'serve-favicon'
+import './config/database.js'
 import dotenv from 'dotenv'
 
 // import the router from your routes file
