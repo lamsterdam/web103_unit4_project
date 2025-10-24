@@ -4,7 +4,7 @@ Submitted by: **Leigh-Riane Amsterdam**
 
 About this web app: **DIY Plant Pot allows the user to assemble their own plant pot. You can choose from your type of material such as clay, ceramic and more, along with desired shape of your plant pot, exterior colour and drainage system. You can browse previously crafted combinations and view images for each type of selection and can make updates to existing plant pot designs or delete you pot and create a new one.**
 
-Time spent: **X** hours
+Time spent: **18** hours
 
 ## Required Features
 
@@ -55,7 +55,8 @@ GIF created with ... GIF tool here
 
 Features JavaScript, React, Vite, Express, Node.js and PostgreSQL
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+Describe any challenges encountered while building the app or any additional context you'd like to add:
+
 I spent a good amount of time working on the backend and finally landed on using multiple foreign keys. I also had some challenges with my routing and had to create additional controllers for each customization category. Finally the frontend pages took a very long time to assemble so I did not get to dedicate more time to cleaning them up.
 
 ## License
