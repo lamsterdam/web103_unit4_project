@@ -1,0 +1,39 @@
+.view-pots-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.pots-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* always 1 column */
+    gap: 1.5rem;
+    /* space between cards */
+}
+
+@media (min-width: 768px) {
+    .pots-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.pot-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border: 1px solid #ddd;
+    /* subtle border to see card boundaries */
+   
+}
+
+.pot-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.pot-card .buttons button {
+    margin-right: 0.5rem;
+}

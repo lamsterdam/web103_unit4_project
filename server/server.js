@@ -5,6 +5,9 @@ import './config/database.js'
 import dotenv from 'dotenv'
 
 // import the router from your routes file
+import potsRouter from './routes/potsRouter.js'
+import customizationRouter from './routes/customizationRouter.js'
+import cors from 'cors'
 
 
 dotenv.config()
@@ -12,6 +15,8 @@ dotenv.config()
 const PORT = process.env.PORT || 3000
 
 const app = express()
+
+app.use(cors())
 
 app.use(express.json())
 
@@ -24,6 +29,8 @@ else if (process.env.NODE_ENV === 'production') {
 }
 
 // specify the api path for the server to use
+app.use('/pots', potsRouter)
+app.use('/', customizationRouter)
 
 
 if (process.env.NODE_ENV === 'production') {

@@ -1,0 +1,46 @@
+.create-pot-page {
+    padding: 20px;
+}
+
+.pot-name-input {
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+}
+
+.card.selected {
+    border-color: #ff9900;
+    background-color: #fff7e6;
+}
+
+.card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.create-pot-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

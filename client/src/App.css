@@ -1,7 +1,9 @@
 .app {
-    background: url('./assets/background.jpg');
+    /* background: url('./assets/background.jpg'); */
+    background: url('./assets/flowers-mud-pot-painting-ideas.png');
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-size: 98%; */
     background-position: center;
     background-attachment: fixed;
     width: 100vw;
